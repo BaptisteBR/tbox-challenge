@@ -8,6 +8,7 @@ import './App.css';
 import { HomePage } from '../HomePage';
 import { LoginPage } from '../LoginPage';
 import { RegisterPage } from '../RegisterPage';
+import { FeedPage } from '../FeedPage';
 
 class App extends React.Component {
     render() {
@@ -16,6 +17,7 @@ class App extends React.Component {
                 <PrivateRoute exact path="/" component={ HomePage } />
                 <Route path="/login" component={ LoginPage } />
                 <Route path="/register" component={ RegisterPage } />
+                <Route path="/news" component={ FeedPage } />
             </Router>
         );
     }

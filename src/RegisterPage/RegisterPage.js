@@ -9,8 +9,6 @@ class RegisterPage extends React.Component {
     constructor(props) {
         super(props);
 
-        // TODO
-
         this.state = {
             username: '',
             email: '',
@@ -41,7 +39,7 @@ class RegisterPage extends React.Component {
         if (!(username && email && password && confirmedPwd)) {
             return;
         }
-        if (password != confirmedPwd) {
+        if (password !== confirmedPwd) {
             return;
         }
 
