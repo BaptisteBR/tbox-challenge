@@ -1,14 +1,16 @@
 import React from 'react';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { PrivateRoute } from '../_components';
+import { PrivateRoute } from '../Components';
 
 import './App.css';
 
-import { HomePage } from '../HomePage';
-import { LoginPage } from '../LoginPage';
-import { RegisterPage } from '../RegisterPage';
-import { FeedPage } from '../FeedPage';
+import {
+    FeedPage,
+    HomePage,
+    LoginPage,
+    RegisterPage
+} from '../Pages';
 
 class App extends React.Component {
     render() {

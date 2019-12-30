@@ -11,12 +11,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Challenge
 
-1. Sign up / sign in:                   Yes
+1. Sign up / sign in:                   In progress...
 2. DB Design:                           Yes
 3. Visual Design implementation:        No
 4. Welcome message 'Good day Swapnil':  Yes
-5. Weather using geolocation:           No
-6. News:                                No
+5. Weather using geolocation:           Yes
+6. News:                                Yes
 7. Sport:                               No
 8. Photo gallery:                       No
 9. Task list (assign complete):         No
